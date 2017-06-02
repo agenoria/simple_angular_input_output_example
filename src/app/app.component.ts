@@ -2,11 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    template: `
-    <custom-counter [(counter)]="counterValue" (counterChange)="myValueChange($event);"></custom-counter>
-    <p><code>counterValue = {{counterValue}}</code></p>
-    <hr>
-    `
+    templateUrl: './app.component.html'
 })
 export class AppComponent{
     counterValue: number;

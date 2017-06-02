@@ -15,11 +15,11 @@ export class CustomCounterComponent {
 
     decrement() {
         this.counter--;
-        this.counterChange.emit(this.counter)
+        this.counterChange.emit(this.counter);
     }
 
     increment() {
         this.counter++;
-        this.counterChange.emit(this.counter)
+        this.counterChange.emit(this.counter);
     }
 }

@@ -12,7 +12,7 @@ export class AppComponent{
     counterValue: number;
 
     constructor(){
-        this.counterValue = 5;
+        this.counterValue = 0;
     }
 
     myValueChange(newCount: number) {
